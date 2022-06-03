@@ -1,13 +1,13 @@
 
 dict_season = {'PA':000,'OPS+':000,'OBP':000,'wOBA':000}
 dict_fmb = {'PA':000,'AB':000,'H':000,'2B':000,'3B':000,'HR':000,'TB':000,'BB':000,'IBB':000,'HBP':000,'OBP':000}
-
 dict_vsP = {'PA':000,'TB':000,'AB':000,'OBP':000}
+
 dict_fielding = {'TC':000,'FPCT':000}
 
 # For each player:
 {'name':'XXX', 
- 'data':{'batting':
+ 'data':{'lastyr':1,'batting':
             {'season':dict_season,'field':dict_fmb,'month':dict_fmb,'baorder':dict_fmb,
               'vsP':{'Lions':{'AAA':dict_vsP,'BBB':dict_vsP},
                      'Monkeys':{'CCC':dict_vsP,'DDD':dict_vsP},
@@ -17,6 +17,7 @@ dict_fielding = {'TC':000,'FPCT':000}
         }
 }
 
+# lastyr = 1 (2021 data) or 0 (2022 data)
 # XXX is chinese name of player
 # AAA, BBB, CCC are name of opponent pitcher
 
