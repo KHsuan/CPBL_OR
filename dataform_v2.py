@@ -20,13 +20,6 @@ dict_fielding = {'TC':000,'FPCT':000}
 # lastyr = 1 (2021 data) or 0 (2022 data)
 # XXX is chinese name of player
 # AAA, BBB, CCC are name of opponent pitcher
-
-# Team name:
-    # Monkeys
-    # Brothers
-    # Lions
-    # Dragons
-    # Guardians
     
 # Position number:
 	# P 1
